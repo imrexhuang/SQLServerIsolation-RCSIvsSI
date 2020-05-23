@@ -7,7 +7,10 @@
 * https://dotblogs.com.tw/stanley14/2017/12/13/rcsi_vs_snapshotisolation
 * https://dotblogs.com.tw/stanley14/2017/11/26/rcsi_performance
 * https://www.facebook.com/groups/supersqlserver/permalink/332832093517487/
+* https://www.facebook.com/groups/supersqlserver/permalink/1950788188388528/
 * http://caryhsu.blogspot.com/2012/01/blog-post_31.html
+* https://dba.stackexchange.com/questions/5014/what-risks-are-there-if-we-enable-read-committed-snapshot-in-sql-server
+* https://littlekendra.com/2016/02/18/how-to-choose-rcsi-snapshot-isolation-levels/
 * https://www.facebook.com/DBtaoist/photos/a.491053947652910/711189198972716/
 * https://dotblogs.com.tw/regionbbs/2011/04/17/sql_server_isolation_level
 * http://sharedderrick.blogspot.com/2017/03/sql-serverreadcommittedsnapshot.html
