@@ -1,5 +1,7 @@
 # SQLServerIsolation-RCSIvsSI
 * SQL Server預設的隔離層級是RC(Read Committed)
+* 使用Row Version Base的隔離層級，要好好管理TempDB並最佳化、大型交易分批做
+* 使用RCSI要注意副作用，最好不要在舊系統使用，新系統上線前可以完整測試比較安全
 * SQL Server 2005之後支援RSCI(Read Committed Snapshot Isolation)和SI(Snapshot Isolation)的隔離層級，但這兩種層級不支援分散式交易
 
 
