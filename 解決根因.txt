@@ -1,0 +1,27 @@
+/*
+解決根因:
+找出Deadlocks語法
+再去調整Index和修改程式寫法
+*/
+
+--設定發生Deadlocks輸出到SQL Server ERRORLOG資料夾
+DBCC TRACEON( 1204, 1222, 3605, -1 );
+
+--確定設定有成功
+DBCC TRACESTATUS(-1);
+
+--關閉此設定
+--SQL Server 服務重啟後也會自動關閉
+--DBCC TRACEOFF( 1204, 1222, 3605, -1 );
+
+/*
+https://seniordba.wordpress.com/2015/12/09/sql-server-trace-flag-list-2330-update/
+Trace Flag : 1204
+Function: Returns info about deadlocks
+
+Trace Flag : 1222
+Function: Returns Deadlock info in XML format
+
+Trace Flag : 3605
+Function: Output buffer info for backups to ERRORLOG
+*/
